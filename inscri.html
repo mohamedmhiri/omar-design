@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="inscri.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body background="images/bg-3.jpg">
+    <script>$(document).ready(function(c) {
+        $('.close').on('click', function(c){
+          $('.login-form').fadeOut('slow', function(c){
+              $('.login-form').remove();
+          });
+        });	  
+      });
+      </script>
+  <!-- formulaire -->
+  <div class="login-form">
+    <div class="close"> </div>
+        <div class="head">
+        </div>
+        <div class="head-info">
+          <h1>SIGN UP</h1>
+          <h2>Hello and Welcome! Register For BAMA</h2>
+        </div>
+        <div id="InputRes">
+      <form method="POST" action="asstes/php/afri.php">
+        <li>
+          <input type="text" class="text" placeholder="Type your family names" id="nom"required onfocus="this.value = '';">
+        </li>
+        <li>
+          <input type="text" class="text"  placeholder="Type your name" id="prenom"required  onfocus="this.value = '';" >
+        </li>
+        <li>
+          <input type="text" placeholder="Type your Username" id="user"required  onfocus="this.value = '';">
+        </li>
+        <li>
+        <input type="text" placeholder="Type your Team name" id="tnom"required  onfocus="this.value = '';">
+        </li>
+        <li>
+          <input type="number" placeholder="Team members n° " id="teamn" required  step="1" min="1" max="6"  onfocus="this.value = '';">
+        </li>
+        <li>
+          <input type="text" placeholder="Instiut or College name" id="institut" required   onfocus="this.value = '';">
+        </li>
+        <li>
+          <input type="email" placeholder="Type your E-Mail" id="email"required  onfocus="this.value = '';">
+        </li>
+        <li>
+          <input type="tel" placeholder="Tel" id="tele"required  onfocus="this.value = '';">
+        </li>
+        <div class="p-container">
+              <input type="submit" value="SIGN UP" >
+            <div class="clear"> </div>
+        </div>
+      </form> 
+    </div>
+      </div>
+      <!--/SIGN UP-->
+
+
+
+
+      <header id="header">
+		<img src="images/slide.png" id="img1">
+		<img src="images/orange.jpg" id="img2">
+		<img src="images/giz.png" id="img3">
+		<img src="images/jumia.png" id="img4">
+		<nav>
+			<ul>
+				<li>
+					<a href="home.html" class="MenuA">
+						<i class="fa fa-home" style="font-size:20px"> Home </i>
+					</a>
+
+				</li>
+				<li>
+					<a href="About.html" class="MenuA" >
+						<i class="fa fa-address-card-o" style="font-size:20px">About</i>
+					</a>
+				</li>
+				<li>
+					<a href="#Inscription" class="MenuA" id="MenuA">
+						<i class="fa fa-edit" style="font-size:20px">Inscription</i>
+					</a>
+				</li>
+				<li>
+					<a href="#Partenaires" class="MenuA">
+						<i class="fa fa-handshake-o" style="font-size:20px"> Partenaires</i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+
+
+<!-- media footer-->
+<div id="footerMedia">
+    <img src="images/slide.png" id="img11">
+    <img src="images/orange.jpg" id="img22">
+    <img src="images/giz.png" id="img33">
+    <img src="images/jumia.png" id="img44">
+</div>
+
+<!-- Footer -->
+<footer id="footer">
+
+    <!-- Icons -->
+    <ul class="actions">
+        <li>
+            <a href="#" class="icon fa-twitter">
+                <span class="label">Twitter</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="icon fa-facebook">
+                <span class="label">Facebook</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="icon fa-instagram">
+                <span class="label">Instagram</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="icon fa-linkedin">
+                <span class="label">LinkedIn</span>
+            </a>
+        </li>
+        <li>
+            <a href="#" class="icon fa-pinterest">
+                <span class="label">Pinterest</span>
+            </a>
+        </li>
+    </ul>
+    <!-- Menu -->
+    <ul class="menu">
+        <li>&copy; test</li>
+        <li>TEST</li>
+    </ul>
+</footer>
+
+
+
+</body>
+</html>
